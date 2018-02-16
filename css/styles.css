@@ -1,0 +1,255 @@
+body {
+   margin: 0;
+   }
+   
+/* Start nav styles */
+.nav-top {
+   height: 125px;
+   background-color: #000000;
+   position: relative;
+   }
+
+.logo {
+   height: 100%;
+   padding-left: 10px;
+   }   
+
+.nav-list {
+   position: absolute;
+   bottom: 0;
+   right: 0;
+   list-style: none;
+   }
+
+.nav-item {
+   float: left;
+   padding-right: 25px;
+   font-size: 14pt;
+   }
+       
+.nav-link {
+   color: #ffffff;
+   text-decoration: none;
+   }
+
+.nav-link-hover {
+   padding: 6px;
+   }
+   
+.nav-link-hover:hover {
+   background-color: rgba(225, 225, 225, .5);
+   border-radius: 5px;
+   cursor: pointer;
+   }     
+/* End nav styles */
+
+/* Start hero styles */
+.hero-section {
+   height: 500px;
+   width: 100%;
+   }
+
+.tinted-image {
+  height: 500px;
+  background: 
+    /* top, transparent */ 
+    linear-gradient(
+      rgba(255, 223, 0, 0.25), 
+      rgba(255, 223, 0, 0.25)
+    ),
+    /* bottom, image */
+    url(../images/barrels.jpg);
+   background-size: cover;
+   }
+
+.hero-text-box {
+   width: 80%;
+   position: relative;
+   left: 10%;
+   top: 100px;
+   text-align: center;
+   }
+   
+.hero-text {
+   color: #ffffff;
+   margin: 0;
+   }   
+   
+.small-font {
+   font-size: 10pt;
+   }
+   
+.text-background1 {
+   background-color: rgba(0, 0, 0, .25);
+   padding: 5px;
+   }
+
+.large-font {
+   font-size: 30pt;
+   }
+
+.text-background2 {
+   background-color: rgba(0, 0, 0, .25);
+   padding: 10px;
+   }   
+   
+.hero-text-spacing {
+   margin-top: 150px;
+   }   
+/* End hero styles */
+
+/* Start mission styles */
+.mission-section {
+   height: 600px;
+   background-color: #000000;
+   }
+
+.mission-text-box {
+   width: 80%;
+   height: 80%;
+   border: 4pt double #ffffff;
+   background-color: #1c1c1c;
+   position: relative;
+   top: 10%;
+   left: 10%;
+   }
+   
+.mission-text1 {
+   color: #ffffff;
+   text-align: center;
+   }
+   
+.mission-text2 {
+   color: #ffffff;
+   padding-left: 10px;
+   padding-right: 10px;
+   }
+/* End mission styles */
+
+/* Start footer styles */
+.main-footer {
+   height: 160px;
+   border-top: 1px solid #ffffff;
+   background-color: #000000;
+   }
+
+.footer-section1 {
+   width: 40%;
+   float: left;
+   height: 100%;
+   text-align: center;
+   }
+   
+.footer-section2 {
+   width: 20%;
+   float: left;
+   height: 100%;
+   text-align: center;
+   }
+
+.footer-logo1 {
+   height: 100%;
+   width: 40%;
+   background-image: url(../images/solitary-cellars4.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   }
+
+.footer-logo-text-box1 {
+   width: 60%;
+   padding-top: 10px;
+   }
+   
+.footer-logo-text {   
+   color: #ffffff;
+   font-size: 12pt;
+   margin-top: 5px;
+   }
+
+.main-box {
+   height: 150px;
+   width: 150px;
+   }
+
+.box {
+   height: 50px;
+   width: 50px;
+   text-align: center;
+   }
+
+.circle-background {
+   background-color: #1c1c1c;
+   border-radius: 100%;
+   }
+
+.social-link {
+   color: #ffd700;
+   text-decoration: none;
+   }
+
+.left {
+   float: left;
+   }
+
+.right {
+   float: right;
+   }
+
+.clear-left {
+   clear: left;
+   }
+
+.clear-right {
+   clear: right;
+   }
+
+.center {
+   margin: 0 auto;
+   }
+
+.center-text {
+   padding-top: 13px;
+   color: #ffffff;
+   }
+   
+.fab {
+   font-size: 20pt;
+   }
+
+.fp-top {
+   padding-top: 6px;
+   }
+
+.footer-logo2 {
+   height: 100%;
+   width: 40%;
+   background-image: url(../images/solitary-cellars4.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   }
+   
+.footer-logo-text-box2 {
+   width: 50%;
+   padding-top: 10px;
+   padding-left: 3%;
+   } 
+   
+.alt-footer {
+   height: 30px;
+   background-color: #000000;   
+   }
+   
+.alt-footer-text {
+   width: 100%;
+   color: #8c8c8c;
+   text-align: center;
+   padding-top: 6px;
+   font-size: 8pt;
+   }
+   
+.crlogo {
+   font-size: 10pt;
+   }   
+/* End footer styles*/
+
+/* */

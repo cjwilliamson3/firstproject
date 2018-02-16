@@ -1,0 +1,39 @@
+.wine-list-container {
+    height: 1000px;
+    background-color: #000000;
+    padding-top: 20px;
+    }
+
+.column1 {
+    width: 48%;
+    float: left;
+    }
+    
+.column2 {
+    width: 48%;
+    float: left;
+    }
+    
+.wine-selection-box {    
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1c1c1c;
+    display: block;
+    overflow: auto;
+    border: 4pt double #ffffff;
+    }
+
+.label-image-column {
+    padding: 4px;
+    float: left;
+    }
+
+.wine-description-column {
+    margin-top: 5px;
+    margin-left: 37%;
+    }
+
+.wine-info-text {
+    margin: 0;
+    color: #ffffff;
+    }    
